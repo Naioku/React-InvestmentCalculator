@@ -1,7 +1,8 @@
 function App() {
-  return (
-    <h1>React Investment Calculator</h1>
-  )
+  return <>
+    <p>USER_INPUT</p>
+    <p>TABLE</p>
+  </>
 }
 
 export default App
