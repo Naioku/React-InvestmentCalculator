@@ -2,12 +2,12 @@
     return <div>
         <label>{name}</label>
         <input
+            required
             type={type}
             value={value}
-            min={0}
             onChange={e => onValueChanged({
                 key: inputKey,
-                value: e.target.value}
+                value: parseFloat(e.target.value)}
             )}
         />
     </div>
