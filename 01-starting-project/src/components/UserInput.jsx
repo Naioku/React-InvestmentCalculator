@@ -11,10 +11,10 @@ export default function UserInput({values, onValueChanged}) {
                 onValueChanged={item => onValueChanged(item)}
             />
             <Input
-                inputKey="annualValue"
+                inputKey="annualInvestment"
                 name="Annual investment"
                 type="number"
-                value={values.annualValue}
+                value={values.annualInvestment}
                 onValueChanged={item => onValueChanged(item)}
             />
         </div>
